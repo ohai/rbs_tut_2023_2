@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require 'foobar/entry_point'
+
+Foobar::EntryPoint.new.start
