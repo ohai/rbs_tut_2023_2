@@ -1,7 +1,17 @@
 module Foobar
   VERSION: String
+  
   class Calculator
+    def initialize: (Integer) -> void
+    def plus_x: (Integer) -> Integer
+    def plus_rand: (Integer) -> Integer
+    
+    @x: Integer
   end
+  
   class EntryPoint
+    def run: (Integer) -> void
+    def print_usage_and_exit: () -> void
+    def print_version_and_exit: () -> void
   end
 end
