@@ -1,0 +1,7 @@
+module Foobar
+  VERSION: String
+  class Calculator
+  end
+  class EntryPoint
+  end
+end
