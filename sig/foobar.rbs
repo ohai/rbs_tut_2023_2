@@ -1,0 +1,21 @@
+# TypeProf 0.21.8
+
+# Classes
+module Foobar
+  VERSION: String
+
+  class Calculator
+    @x: Integer
+
+    def initialize: (Integer x) -> void
+    def plus_x: (Integer y) -> (Complex | Float | Integer | Rational)
+    def plus_rand: (Integer y) -> (Complex | Float | Integer | Rational)
+  end
+
+  class EntryPoint
+    def start: -> untyped
+    def run: (Integer n) -> untyped
+    def print_usage_and_exit: -> bot
+    def print_version_and_exit: -> bot
+  end
+end
