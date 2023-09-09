@@ -8,13 +8,13 @@ module Foobar
     @x: Integer
 
     def initialize: (Integer x) -> void
-    def plus_x: (Integer y) -> (Complex | Float | Integer | Rational)
-    def plus_rand: (Integer y) -> (Complex | Float | Integer | Rational)
+    def plus_x: (Integer y) -> Integer
+    def plus_rand: (Integer y) -> Integer
   end
 
   class EntryPoint
-    def start: -> untyped
-    def run: (Integer n) -> untyped
+    def start: -> void
+    def run: (Integer n) -> void
     def print_usage_and_exit: -> bot
     def print_version_and_exit: -> bot
   end
